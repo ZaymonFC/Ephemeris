@@ -16,6 +16,21 @@ I looked at options like HangFire but the paid requirement to run the solution o
 #### Activity Diagram - High Level Flow
 ![Activity Diagram](/Diagrams/Activity.svg)
 
+### Message Types
+```FSharp
+type Message<'t> = {
+    Id: Guid
+    Data: 't
+    Acknowledge: Guid -> unit
+}
+
+type MessageAsync<'t> = {
+    Id: Guid
+    Data: 't
+    Acknowledge: Guid -> Async<unit>
+}
+```
+
 ## Roadmap
 - [ ] Create diagrams
     - [x] Activity
