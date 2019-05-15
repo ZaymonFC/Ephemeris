@@ -6,8 +6,8 @@ To allow the development of some personal projects which follow `Command Query R
 I looked at options like HangFire but the paid options to run the solution over Redis along wit a lack of **Functional First** support deterred me.
 
 ## Specification
+#### Activity Diagram - High Level Flow
 ![Activity Diagram](/Diagrams/Activity.svg)
-![Activity Diagram](/Diagrams/Activity.png)
 
 ## Roadmap
 - [ ] Create diagrams
