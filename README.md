@@ -3,6 +3,7 @@
 ## Motivations & Ambitions ⚡️
 - To __allow the development__ of some personal projects which follow `Command Query Responsibility Segregation` I am in need of a simple message queueing system.
 - If the client application crashes, I need a low overhead way to ensure processing of unprocessed commands and events.
+- I need the library to either be written completely in `FSharp` or expose an `FSharp` API.
 - I need a simple bus to buffer and store commands and events.
 - I would like to use an in memory data store like Redis to leverage redis Queues and Sets.
 - I would like a simple API/mechanism to acknowledge that I am done processing an event.
@@ -27,3 +28,14 @@ I looked at options like HangFire but the paid requirement to run the solution o
 ### Why the Name
 1. This project is a __proof of concept__ and therefore most likely to be ephemeral in the literal sense. 
 2. It sounds **cool**
+
+
+## Log of ramblings and thoughts - Capture thought process
+Just completed the activity diagram for the high level data flow. More specific analysis is probably required to determine the best mechanism to `checkout` `commands` from the batch of `commands`.
+
+Deciding wether I want to attack the IRedis type first, or keep designing the components of the system.
+
+It would probably be a good idea to expose some subscription mechanism. Ideally a union type or string could be provided, and then the lib can just do it's thing and provide the client with messages from either the queue directly or batches.
+
+The more I think about this, this lib should definitely not be used as a global message bus. 
+I guess is doesn't matter how many publishers to a command buffer there are. However, there should definitely only be one consumer.
