@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="860px" preserveAspectRatio="none" style="width:1288px;height:860px;" version="1.1" viewBox="0 0 1288 860" width="1288px" zoomAndPan="magnify"><defs/><g><!--cluster Ephemeris--><rect fill="#FFFFFF" height="832.5" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="828" x="196" y="16.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="80" x="570" y="32.0352">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="566.5" y="50.457">Ephemeris</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="583.5" y="65.4336">[System]</text><!--entity core--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="215" x="396.5" y="338"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="471.5" y="359.6016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="37" x="485.5" y="377.6016">Core</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="47" x="480.5" y="392.5781">[Fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="506" y="408.6445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="191" x="406.5" y="425.1328">Maintains Internal State and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="463" y="441.6211">Consistency</text><!--entity buffer--><rect fill="#438DD5" height="100.0859" style="stroke: #3C7FC0; stroke-width: 1.5;" width="184" x="391" y="76.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="450.5" y="98.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="51" x="457.5" y="116.1016">Buffer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="460.5" y="131.0781">[fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="485" y="147.1445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="164" x="401" y="163.6328">Buffers Incoming Events</text><!--entity sync--><rect fill="#438DD5" height="100.0859" style="stroke: #3C7FC0; stroke-width: 1.5;" width="190" x="595" y="732.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="657.5" y="754.1016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="636" y="772.1016">Sync Listener</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="667.5" y="787.0781">[fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="692" y="803.1445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="605" y="819.6328">Publishes messages sync</text><!--entity batch--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="177" x="826.5" y="724"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="882.5" y="745.6016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="857.5" y="763.6016">Batch Listener</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="892.5" y="778.5781">[fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="917" y="794.6445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="836.5" y="811.1328">Publishes messages in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="53" x="888.5" y="827.6211">batches</text><!--entity redis--><path d="M286.5,738 C286.5,728 372,728 372,728 C372,728 457.5,728 457.5,738 L457.5,827.0859 C457.5,837.0859 372,837.0859 372,837.0859 C372,837.0859 286.5,837.0859 286.5,827.0859 L286.5,738 " fill="#438DD5" style="stroke: #3C7FC0; stroke-width: 1.5;"/><path d="M286.5,738 C286.5,748 372,748 372,748 C372,748 457.5,748 457.5,738 " fill="none" style="stroke: #3C7FC0; stroke-width: 1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="339.5" y="763.6016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="349.5" y="781.6016">Redis</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="352" y="796.5781">[Redis]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="374" y="812.6445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="151" x="296.5" y="829.1328">Persists Queues / Sets</text><!--entity pub--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="182" x="6" y="68"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="64.5" y="89.6016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="58" y="107.6016">Publisher</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="74.5" y="122.5781">[fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="99" y="138.6445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="16" y="155.1328">Publishes Commands /</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="75" y="171.6211">Events</text><!--entity cons--><rect fill="#438DD5" height="116.5742" style="stroke: #3C7FC0; stroke-width: 1.5;" width="189" x="1051.5" y="516"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="65" x="1113.5" y="537.6016">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="84" x="1104" y="555.6016">Consumer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="45" x="1123.5" y="570.5781">[fsharp]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="1148" y="586.6445"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="1061.5" y="603.1328">Consumes Commands /</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="1124" y="619.6211">Events</text><!--link cons to sync--><path d="M1051.212,624.1394 C1044.7474,627.2157 1038.3009,630.1974 1032,633 C997.684,648.2638 987.8531,649.006 953,663 C888.4995,688.8978 872.2129,695.1012 809,724 C802.8269,726.8222 796.4972,729.7702 790.1289,732.7778 " fill="none" id="cons-sync" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="785.2534,735.0882,795.0993,734.8486,789.7717,732.947,791.6734,727.6193,785.2534,735.0882" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="981" y="676.5684">Consumes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="124" x="954" y="690.9121">[Commands / Events]</text><!--link cons to batch--><path d="M1126.0104,633.0195 C1116.6502,654.126 1103.7921,676.9269 1087,694 C1065.0734,716.2935 1036.3425,734.0777 1008.6579,747.6837 " fill="none" id="cons-batch" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="1003.8652,750.0031,1013.7089,749.683,1008.3658,747.825,1010.2239,742.482,1003.8652,750.0031" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="1158" y="676.5684">Consumes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="166" x="1110" y="690.9121">[Batched Commands/Events]</text><!--link pub to buffer--><path d="M188.4766,126.5 C247.8919,126.5 325.2526,126.5 385.7784,126.5 " fill="none" id="pub-buffer" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="390.8423,126.5,381.8423,122.5,385.8423,126.5,381.8423,130.5,390.8423,126.5" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="22" x="278.5" y="106.0684">Put</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="124" x="227.5" y="120.4121">[Commands / Events]</text><!--link core to redis--><path d="M499.9394,455.4464 C495.1357,504.2924 484.8277,574.8727 463,633 C451.0863,664.7263 432.2806,697.185 414.8496,723.7158 " fill="none" id="core-redis" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="412.0651,727.9219,420.3685,722.6254,414.8251,723.7527,413.6978,718.2093,412.0651,727.9219" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="22" x="525.5" y="572.5684">Put</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="87" x="493" y="586.9121">[m -&gt; Queues]</text><!--link core to redis--><path d="M396.3626,422.6455 C347.6717,440.4264 294.7044,469.4679 266,516 C224.8977,582.63 274.2659,667.94 318.4806,723.852 " fill="none" id="core-redis" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="321.6538,727.8262,319.1639,718.2973,318.534,723.9189,312.9123,723.289,321.6538,727.8262" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="22" x="286.5" y="572.5684">Put</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="61" x="267" y="586.9121">[m -&gt; Set]</text><!--link redis to core--><path d="M359.5209,727.7692 C349.5814,671.9434 341.7939,584.0912 372,516 C381.4979,494.5898 396.9368,475.385 413.968,458.9557 " fill="none" id="redis-core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="417.8576,455.2759,408.5707,458.5553,414.2254,458.7121,414.0686,464.3668,417.8576,455.2759" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="46" x="390.5" y="572.5684">Access</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="81" x="373" y="586.9121">[Queue -&gt; m]</text><!--link core to sync--><path d="M550.158,455.0459 C563.7384,473.8602 577.9112,495.224 589,516 C626.2016,585.7013 656.2898,672.1363 673.6647,727.3111 " fill="none" id="core-sync" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="675.203,732.2201,676.3288,722.4358,673.7079,727.4489,668.6948,724.828,675.203,732.2201" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="679" y="572.5684">Projects</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="129" x="641" y="586.9121">[View of Internal State]</text><!--link core to batch--><path d="M611.7739,424.241 C667.0383,442.8489 732.3446,472.1485 779,516 C838.4555,571.8823 876.1524,659.5264 896.4072,718.9131 " fill="none" id="core-batch" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="898.0742,723.8533,898.9868,714.0468,896.4756,719.1157,891.4067,716.6045,898.0742,723.8533" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="53" x="898" y="572.5684">Projects</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="129" x="860" y="586.9121">[View of Internal State]</text><!--link buffer to core--><path d="M486.9007,176.6522 C490.3226,220.6477 495.317,284.8617 499.0255,332.542 " fill="none" id="buffer-core" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="499.4256,337.6864,502.7157,328.4033,499.0379,332.7015,494.7397,329.0237,499.4256,337.6864" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="47" x="543.5" y="259.5684">Stream</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="144" x="495" y="273.9121">[Buffer Command Intake]</text><!--
+@startuml System Diagram
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 200
+
+top to bottom direction
+rectangle "==Publisher\n//<size:12>[fsharp]</size>//\n\n Publishes Commands / Events" <<container>> as pub
+rectangle "==Consumer\n//<size:12>[fsharp]</size>//\n\n Consumes Commands / Events" <<container>> as cons
+
+rectangle "==Ephemeris\n<size:12>[System]</size>" <<boundary>> as Ephemeris {
+    rectangle "==Core\n//<size:12>[Fsharp]</size>//\n\n Maintains Internal State and Consistency" <<container>> as core
+    rectangle "==Buffer\n//<size:12>[fsharp]</size>//\n\n Buffers Incoming Events" <<container>> as buffer
+    rectangle "==Sync Listener\n//<size:12>[fsharp]</size>//\n\n Publishes messages sync" <<container>> as sync
+    rectangle "==Batch Listener\n//<size:12>[fsharp]</size>//\n\n Publishes messages in batches" <<container>> as batch
+    database "==Redis\n//<size:12>[Redis]</size>//\n\n Persists Queues / Sets" <<container>> as redis
+}
+
+cons - -> sync : "===Consumes\n//<size:12>[Commands / Events]</size>//"
+cons - -> batch : "===Consumes\n//<size:12>[Batched Commands/Events]</size>//"
+pub -> buffer : "===Put\n//<size:12>[Commands / Events]</size>//"
+core - -> redis : "===Put\n//<size:12>[m -> Queues]</size>//"
+core - -> redis : "===Put\n//<size:12>[m -> Set]</size>//"
+redis - -> core : "===Access\n//<size:12>[Queue -> m]</size>//"
+core - -> sync : "===Projects\n//<size:12>[View of Internal State]</size>//"
+core - -> batch : "===Projects\n//<size:12>[View of Internal State]</size>//"
+
+buffer - -> core : "===Stream\n//<size:12>[Buffer Command Intake]</size>//"
+
+@enduml
+
+PlantUML version 1.2019.03(Sun Mar 10 21:04:44 AEST 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 12.0.1+12
+Operating System: Mac OS X
+OS Version: 10.14.4
+Default Encoding: UTF-8
+Language: en
+Country: AU
+--></g></svg>

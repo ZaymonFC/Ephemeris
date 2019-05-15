@@ -1,0 +1,30 @@
+@startuml SystemDiagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 200
+
+LAYOUT_TOP_DOWN
+Container(pub, "Publisher", "fsharp", "Publishes Commands / Events")
+Container(cons, "Consumer", "fsharp", "Consumes Commands / Events")
+
+System_Boundary(Ephemeris, "Ephemeris") {
+    Container(core, "Core", "Fsharp", "Maintains Internal State and Consistency")
+    Container(buffer, "Buffer",  'fsharp', 'Buffers Incoming Events')
+    Container(sync, "Sync Listener", 'fsharp', "Publishes messages sync")
+    Container(batch, "Batch Listener", 'fsharp', "Publishes messages in batches")
+    ContainerDb(redis, "Redis", "Redis", "Persists Queues / Sets")
+}
+
+Rel(cons, sync, "Consumes", "Commands / Events")
+Rel(cons, batch, "Consumes", "Batched Commands/Events")
+Rel_Neighbor(pub, buffer, "Put", "Commands / Events")
+Rel(core, redis, "Put", "m -> Queues")
+Rel(core, redis, "Put", "m -> Set")
+Rel(redis, core, "Access", "Queue -> m")
+Rel(core, sync, "Projects", "View of Internal State")
+Rel(core, batch, "Projects", "View of Internal State")
+
+Rel(buffer, core, "Stream", "Buffer Command Intake")
+
+@enduml

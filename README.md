@@ -16,6 +16,9 @@ I looked at options like HangFire but the paid requirement to run the solution o
 #### Activity Diagram - High Level Flow
 ![Activity Diagram](/Diagrams/Activity.svg)
 
+#### System Diagram - High Level Breakdown
+![System Diagram](/Diagrams/SystemDiagram.svg)
+
 ### Message Types
 ```FSharp
 type Message<'t> = {
