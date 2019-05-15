@@ -54,3 +54,10 @@ It would probably be a good idea to expose some subscription mechanism. Ideally 
 
 The more I think about this, this lib should definitely not be used as a global message bus. 
 I guess is doesn't matter how many publishers to a command buffer there are. However, there should definitely only be one consumer.
+
+It's important that I don't put too much `application logic` in this library. It's hard to define the boundary of what `Ephmeris` should do and what the `consuming application` should do.
+- Maybe it's a good idea to do a capability breakdown?
+
+What is the lifetime of each batch processor?
+- Should there be one batch processor that manage's a bunch of requested batches from different streams?
+- Should there be one batch processor per stream?

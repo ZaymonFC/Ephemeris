@@ -4,8 +4,9 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Redis.fs" />
-    <Compile Include="Program.fs" />
     <Compile Include="Message.fs" />
+    <Compile Include="Redis.fs" />
+    <Compile Include="BatchProcessor.fs" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
