@@ -1,12 +1,15 @@
 @startuml SystemDiagram
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
 
-skinparam wrapWidth 200
-skinparam maxMessageSize 200
+' skinparam wrapWidth 200
+' skinparam maxMessageSize 200
 
-LAYOUT_TOP_DOWN
-Container(pub, "Publisher", "fsharp", "Publishes Commands / Events")
-Container(cons, "Consumer", "fsharp", "Consumes Commands / Events")
+' LAYOUT_TOP_DOWN
+
+System_Ext(ex, "Dependent Application") {
+    Container(pub, "Publisher", "fsharp", "Publishes Commands / Events")
+    Container(cons, "Consumer", "fsharp", "Consumes Commands / Events")
+}
 
 System_Boundary(Ephemeris, "Ephemeris") {
     Container(core, "Core", "Fsharp", "Maintains Internal State and Consistency")
