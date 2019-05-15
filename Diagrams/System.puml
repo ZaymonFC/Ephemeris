@@ -4,7 +4,7 @@
 ' skinparam wrapWidth 200
 ' skinparam maxMessageSize 200
 
-' LAYOUT_TOP_DOWN
+LAYOUT_TOP_DOWN
 
 System_Ext(ex, "Dependent Application") {
     Container(pub, "Publisher", "fsharp", "Publishes Commands / Events")
@@ -16,15 +16,15 @@ System_Boundary(Ephemeris, "Ephemeris") {
     Container(buffer, "Buffer",  'fsharp', 'Buffers Incoming Events')
     Container(sync, "Sync Listener", 'fsharp', "Publishes messages sync")
     Container(batch, "Batch Listener", 'fsharp', "Publishes messages in batches")
+}
+System_Boundary(storage, "Storage") {
     ContainerDb(redis, "Redis", "Redis", "Persists Queues / Sets")
 }
 
 Rel(cons, sync, "Consumes", "Commands / Events")
 Rel(cons, batch, "Consumes", "Batched Commands/Events")
 Rel_Neighbor(pub, buffer, "Put", "Commands / Events")
-Rel(core, redis, "Put", "m -> Queues")
-Rel(core, redis, "Put", "m -> Set")
-Rel(redis, core, "Access", "Queue -> m")
+Rel(core, redis, "Uses", "Fetch, Store Queue/Set")
 Rel(core, sync, "Projects", "View of Internal State")
 Rel(core, batch, "Projects", "View of Internal State")
 

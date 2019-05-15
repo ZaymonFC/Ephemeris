@@ -17,4 +17,4 @@ else
     --> [No] "SyncContext<m>"
     "SyncContext<m>" -> [Process] "Acknowledge Sync Processing"
     --> (*)
-@enduml
+@endumlcc
