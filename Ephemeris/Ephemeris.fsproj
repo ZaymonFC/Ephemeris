@@ -5,6 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Message.fs" />
+    <Compile Include="Queue.fs" />
     <Compile Include="Redis.fs" />
     <Compile Include="BatchProcessor.fs" />
     <Compile Include="Program.fs" />
