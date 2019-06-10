@@ -9,5 +9,6 @@
     <Compile Include="Redis.fs" />
     <Compile Include="BatchProcessor.fs" />
     <Compile Include="Program.fs" />
+    <Compile Include="Set.fs" />
   </ItemGroup>
 </Project>
