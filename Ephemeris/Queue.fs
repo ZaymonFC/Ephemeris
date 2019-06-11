@@ -1,4 +1,4 @@
-module Queue 
+module Queue
 
 /// List implementation of a queue. -> This will perform horribly but I can fix performance
 /// behind the exposed API.
@@ -40,4 +40,5 @@ with
         getItems [] count
 
     member this.Push (item: 't) =
+        // let newItems = item::this.Items
         this.Items <- item::(this.Items)
